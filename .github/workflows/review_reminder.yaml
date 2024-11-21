@@ -10,8 +10,7 @@ jobs:
     if: github.repository == 'Sojusan/test_reminder'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: ./
+      - uses: sojusan/github-action-reminder@v1
         with:
           reminder_message: "This is a test reminder message. Good job!"
           inactivity_deadline_hours: 1
