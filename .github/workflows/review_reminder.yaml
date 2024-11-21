@@ -7,7 +7,7 @@ on:
 
 jobs:
   reminder:
-    if: github.repository == 'Sojusan/github-action-reminder'
+    if: github.repository == 'Sojusan/test_reminder'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
