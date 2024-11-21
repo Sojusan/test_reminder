@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: sojusan/github-action-reminder@00004_stop_running_for_forks
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           reminder_message: "This is a test reminder message. Good job!"
           inactivity_deadline_hours: 1
           default_users_to_notify: |
