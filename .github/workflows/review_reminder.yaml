@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'Sojusan/test_reminder'
     runs-on: ubuntu-latest
     steps:
-      - uses: sojusan/github-action-reminder@v1
+      - uses: sojusan/github-action-reminder@00004_stop_running_for_forks
         with:
           reminder_message: "This is a test reminder message. Good job!"
           inactivity_deadline_hours: 1
